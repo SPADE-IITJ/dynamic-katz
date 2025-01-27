@@ -1,4 +1,4 @@
-# Katz Centrality For Dynamic Graphs
+# Fast Katz Centrality on Dynamic Graphs
 
 This project contains scripts and C++ programs to compute and update Katz centrality on dynamic graphs. The updates involve edge additions and deletions processed in batches. The project uses OpenMP to parallelize computations and optimise performance.
 
@@ -59,5 +59,5 @@ Outputs the time taken for both the initial computation and each batch update.
 
 `katz_threads.cpp`:
 
-Similar to katz_dynamic.cpp but optimises update propagation using multiple threads for improved performance.
+Similar to katz_dynamic.cpp, it optimises update propagation using multiple threads for improved performance.
 Outputs speedups on computation and updates.
